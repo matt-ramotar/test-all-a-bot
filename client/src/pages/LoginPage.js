@@ -134,7 +134,7 @@ export const LoginPage = ({ user, loginDispatcher, loadUserDispatcher }) => {
                   <Button
                     variant='contained'
                     style={{ backgroundColor: '#7289da' }}
-                    href='https://discord.com/api/oauth2/authorize?client_id=771154573795655680&redirect_uri=https%3A%2F%2Fall-a-bot.herokuapp.com%2Fauth%2Fredirect&response_type=code&scope=identify%20email%20connections%20guilds'>
+                    href='https://discord.com/api/oauth2/authorize?client_id=771154573795655680&redirect_uri=http%3A%2F%2Ftest-all-a-bot.herokuapp.com%2Fauth%2Fredirect&response_type=code&scope=identify%20email%20connections%20guilds'>
                     <span style={{ marginRight: '5px' }}>
                       <i className='fab fa-discord' />
                     </span>
