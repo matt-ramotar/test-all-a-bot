@@ -23,7 +23,7 @@ RUN ["cp", "-r", "app/static/static/css", "app/static"]
 ENV FLASK_APP=app
 ENV FLASK_ENV=production
 ENV SQLALCHEMY_ECHO=True
-ENV REACT_APP_BASE_URL=https://all-a-bot.herokuapp.com/
+ENV REACT_APP_BASE_URL=https://test-all-a-bot.herokuapp.com/
 
 EXPOSE 8000
 
